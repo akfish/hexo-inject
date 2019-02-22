@@ -41,7 +41,7 @@
     "gulp-heap": "^2.0.0-alpha.1",
     "gulp-mocha": "^6.0.0",
     "hexo": "^3.2.0",
-    "mocha": "^5.2.0",
+    "mocha": "^6.0.1",
     "sinon": "^7.1.1"
   }
 }
