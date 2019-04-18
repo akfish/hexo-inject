@@ -8,11 +8,11 @@
     "url": "https://github.com/akfish/hexo-inject.git"
   },
   "scripts": {
-    "prepublish": "gulp clean && gulp es6",
-    "test": "gulp test",
-    "es6": "gulp es6",
-    "clean": "gulp clean",
-    "watch": "gulp watch"
+    "prepublish": "run-s clean es6",
+    "test": "mocha test/**/*.spec.js",
+    "es6": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "watch": "watch \"npm test\" src test"
   },
   "keywords": [
     "hexo",
@@ -31,6 +31,7 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-transform-async-to-module-method": "^6.7.0",
@@ -38,13 +39,11 @@
     "babel-register": "^6.5.2",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "del": "^4.0.0",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-heap": "^2.0.0-alpha.1",
-    "gulp-mocha": "^6.0.0",
     "hexo": "^3.2.0",
     "mocha": "^6.0.2",
-    "sinon": "^7.1.1"
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.3",
+    "sinon": "^7.1.1",
+    "watch": "^1.0.2"
   }
 }

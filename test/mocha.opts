@@ -1,0 +1,4 @@
+--ui bdd
+--reporter spec
+--require ./test/scaffolds.js
+--timeout 2000

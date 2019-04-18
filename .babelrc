@@ -9,5 +9,6 @@
       "method": "coroutine"
     }],
     "transform-decorators-legacy"
-  ]
+  ],
+  "sourceMaps": "inline"
 }
