@@ -9,7 +9,10 @@
   },
   "scripts": {
     "prepublish": "gulp clean && gulp es6",
-    "test": "gulp test"
+    "test": "gulp test",
+    "es6": "gulp es6",
+    "clean": "gulp clean",
+    "watch": "gulp watch"
   },
   "keywords": [
     "hexo",
