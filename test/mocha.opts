@@ -1,4 +1,7 @@
 --ui bdd
 --reporter spec
+--require babel-register
 --require ./test/scaffolds.js
 --timeout 2000
+--extension spec.js
+--recursive

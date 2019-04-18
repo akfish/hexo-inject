@@ -1,5 +1,3 @@
-require('babel-register');
-
 global.Hexo = require('hexo');
 
 // GLOBAL.fs = require('hexo-fs')
