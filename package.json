@@ -9,10 +9,7 @@
   "files": [
     "lib/"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/akfish/hexo-inject.git"
-  },
+  "repository": "hexojs/hexo-inject",
   "scripts": {
     "prepare": "gulp clean && gulp es6",
     "test": "gulp test"
