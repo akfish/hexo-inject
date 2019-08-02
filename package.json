@@ -11,8 +11,7 @@
   ],
   "repository": "hexojs/hexo-inject",
   "scripts": {
-    "prepare": "gulp clean && gulp es6",
-    "test": "gulp test"
+    "test": "mocha"
   },
   "keywords": [
     "hexo",
