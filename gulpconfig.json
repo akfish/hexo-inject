@@ -15,13 +15,8 @@
       "./src/**/*.es6"
     ],
     "dst": "./lib",
-    "sourceMap": true,
-    "_useBabelRc": true,
-    "opts": {
-      "presets": [
-        "es2015"
-      ]
-    }
+    "sourceMap": false,
+    "_useBabelRc": true
   },
   "mocha:default": {
     "taskName": "test",
