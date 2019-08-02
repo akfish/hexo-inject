@@ -31,16 +31,8 @@
     "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "babel-plugin-add-module-exports": "^1.0.0",
-    "babel-register": "^6.5.2",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "coffeescript": "^2.3.2",
-    "del": "^4.0.0",
-    "gulp": "^4.0.0",
-    "gulp-babel": "^6.1.2",
-    "gulp-heap": "^2.0.0-alpha.1",
-    "gulp-mocha": "^6.0.0",
     "hexo": "^3.2.0",
     "mocha": "^6.0.2",
     "sinon": "^7.1.1"

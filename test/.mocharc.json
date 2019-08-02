@@ -1,0 +1,15 @@
+{
+  "reporter": "spec",
+  "globals": [
+    "chai",
+    "expect",
+    "Hexo",
+    "fs"
+  ],
+  "require": [
+    "./test/scaffolds.js"
+  ],
+  "timeout": 2000,
+  "bail": false,
+  "check-leaks": false
+}
