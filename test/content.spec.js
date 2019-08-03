@@ -13,9 +13,9 @@ describe('Content', () => {
     const should_generate_raw_html = expected => {
       inject.raw.calledOnce.should.be.true;
       inject.raw.calledWith('test').should.be.true;
-      
-      const [x, html, opts] = inject.raw.getCall(0).args;
-      
+
+      const [, html, opts] = inject.raw.getCall(0).args;
+
       html.should.be.a('function');
       expect(opts).to.be.undefined;
       return html().should.eventually.equal(expected);
