@@ -1,4 +1,7 @@
-# hexo-inject [![Build Status](https://travis-ci.org/hexojs/hexo-inject.svg?branch=master)](https://travis-ci.org/hexojs/hexo-inject)
+# hexo-inject
+
+[![Build Status](https://travis-ci.org/hexojs/hexo-inject.svg?branch=master)](https://travis-ci.org/hexojs/hexo-inject)
+[![NPM version](https://badge.fury.io/js/hexo-inject.svg)](https://www.npmjs.com/package/hexo-inject)
 
 Dynamic script & style (and more) injection for Hexo
 
