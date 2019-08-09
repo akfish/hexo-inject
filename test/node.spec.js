@@ -1,4 +1,5 @@
 'use strict';
+/* global expect */
 const {
   Node,
   Block,
