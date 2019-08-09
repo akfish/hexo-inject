@@ -10,7 +10,9 @@
   "scripts": {
     "test": "mocha test/**/*.spec.js",
     "watch": "watch \"npm test\" src test",
-    "lint": "eslint src"
+    "lint": "run-p lint:*",
+    "lint:src": "eslint src",
+    "lint:test": "eslint test"
   },
   "keywords": [
     "hexo",
