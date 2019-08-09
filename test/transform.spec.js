@@ -30,6 +30,7 @@ describe('Transform', () => {
     return mock_hexo.log.debug.calledWithMatch('[hexo-inject] SKIP: test-partial').should.be.true;
   });
   return it('should overwrite existing injeciton blocks', () => {
+    // eslint-disable-next-line no-unused-vars
     const parser = new Parser();
     return inject._transform(injected, { source: 'test' }).should.eventually.equal(injected);
   });
