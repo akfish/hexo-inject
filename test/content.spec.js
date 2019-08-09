@@ -23,23 +23,23 @@ describe('Content', () => {
 
     it('tag', () => {
       inject.tag('test', 'h1', { class: 'foo' }, 'heading', true);
-      return should_generate_raw_html("<h1 class='foo'>heading</h1>");
+      return should_generate_raw_html('<h1 class=\'foo\'>heading</h1>');
     });
     it('script', () => {
       inject.script('test', { src: 'foo/bar.js' });
-      return should_generate_raw_html("<script src='foo/bar.js'></script>");
+      return should_generate_raw_html('<script src=\'foo/bar.js\'></script>');
     });
     it('script - with content', () => {
       inject.script('test', { type: 'text/test' }, 'this is a test');
-      return should_generate_raw_html("<script type='text/test'>this is a test</script>");
+      return should_generate_raw_html('<script type=\'text/test\'>this is a test</script>');
     });
     it('style', () => {
       inject.style('test', { media: 'screen' }, '* { display: none }');
-      return should_generate_raw_html("<style media='screen'>* { display: none }</style>");
+      return should_generate_raw_html('<style media=\'screen\'>* { display: none }</style>');
     });
     return it('link', () => {
       inject.link('test', { src: 'foo/style.css' });
-      return should_generate_raw_html("<link src='foo/style.css'>");
+      return should_generate_raw_html('<link src=\'foo/style.css\'>');
     });
   });
   describe('tag', () => {
@@ -53,7 +53,7 @@ describe('Content', () => {
         },
         'data-bar': Promise.resolve('bar').delay(1000)
       };
-      return inject._buildHTMLTag('link', css_attrs, null, false, src).should.eventually.equal("<link src='/foo/bar.css' data-foo='foo' data-bar='bar'>");
+      return inject._buildHTMLTag('link', css_attrs, null, false, src).should.eventually.equal('<link src=\'/foo/bar.css\' data-foo=\'foo\' data-bar=\'bar\'>');
     });
     return it('._buildHTMLTag - script', () => {
       const js_attrs = {

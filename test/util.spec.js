@@ -1,12 +1,12 @@
 const { camalize, callsite } = require('../src/util');
 
-describe("Util", () => {
-  it(".camalize", () => {
+describe('Util', () => {
+  it('.camalize', () => {
     camalize('foo_bar').should.equal('fooBar');
     camalize('foo___bar').should.equal('fooBar');
     return camalize('_').should.equal('');
   });
-  return it(".callsite", () => {
+  return it('.callsite', () => {
     const cs = callsite();
     cs.should.be.an('array').of.length.above(0);
     // First stack trace should be this function
