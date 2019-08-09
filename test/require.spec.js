@@ -1,3 +1,5 @@
+'use strict';
+/* global Hexo */
 const Inject = require('../src/inject');
 const sinon = require('sinon');
 const path = require('path');

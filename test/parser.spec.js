@@ -1,3 +1,4 @@
+'use strict';
 const Parser = require('../src/parser');
 const map = require('lodash/map');
 

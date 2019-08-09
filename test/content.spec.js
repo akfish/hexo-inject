@@ -1,3 +1,4 @@
+'use strict';
 const Inject = require('../src/inject');
 const Promise = require('bluebird');
 const omit = require('lodash/omit');

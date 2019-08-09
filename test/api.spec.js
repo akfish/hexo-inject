@@ -1,3 +1,4 @@
+'use strict';
 const Inject = require('../src/inject');
 const { INJECTION_POINTS, API } = require('../src/const');
 const { camalize } = require('../src/util');

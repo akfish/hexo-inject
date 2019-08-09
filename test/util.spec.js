@@ -1,3 +1,4 @@
+'use strict';
 const { camalize, callsite } = require('../src/util');
 
 describe('Util', () => {

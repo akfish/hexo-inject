@@ -1,3 +1,4 @@
+'use strict';
 const Inject = require('../src/inject');
 const sinon = require('sinon');
 const Parser = require('../src/parser');
