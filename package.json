@@ -4,6 +4,12 @@
   "description": "Dynamic script & style (and more) injection for Hexo",
   "main": "src/index.js",
   "repository": "hexojs/hexo-inject",
+  "directories": {
+    "src": "./src"
+  },
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "test": "mocha test/**/*.spec.js",
     "watch": "watch \"npm test\" src test",
@@ -35,9 +41,6 @@
     "sinon": "^7.1.1",
     "watch": "^1.0.2"
   },
-  "files": [
-    "src"
-  ],
   "engines": {
     "node": ">=8"
   }
