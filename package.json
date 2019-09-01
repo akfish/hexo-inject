@@ -3,10 +3,7 @@
   "version": "1.1.1",
   "description": "Dynamic script & style (and more) injection for Hexo",
   "main": "src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/akfish/hexo-inject.git"
-  },
+  "repository": "hexojs/hexo-inject",
   "scripts": {
     "test": "mocha test/**/*.spec.js",
     "watch": "watch \"npm test\" src test",
