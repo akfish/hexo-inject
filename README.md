@@ -1,3 +1,7 @@
+# DEPREACATED!
+
+## hexo-inject has been deprecated and no longer compatible with current version of Hexo. Hexo has built-in injector supports since Hexo 5.0.0. Please read [`Injector` API documents](https://hexo.io/api/injector) for more details.
+
 # hexo-inject
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-inject.svg?branch=master)](https://travis-ci.org/hexojs/hexo-inject)
